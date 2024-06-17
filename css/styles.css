@@ -10960,3 +10960,24 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+a[href^="mailto:"] {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-transform: lowercase; /* Change the text to lowercase */
+  }
+
+  h2.mb-0 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-font {
+    font-family: 'Arial', sans-serif; /* Change to your desired font */
+    text-transform: none; /* Disable autocapitalization */
+}
+
+
+
+
+
+
