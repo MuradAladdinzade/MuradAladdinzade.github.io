@@ -11001,3 +11001,70 @@ a[href^="mailto:"] {
   font-size: 1.4rem;
   color: var(--bs-secondary);
 }
+
+/* Container for social icons and download button */
+.social-and-download {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* Space between each icon and the download button */
+}
+
+/* Social icon styling remains the same */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #bd5d38;
+}
+
+/* Download Resume Button styled like social icons with label */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+  padding: 1rem 1.4rem;
+  background-color: #495057;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Icon style to match social icons */
+.download-btn i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+}
+
+/* Text style for "Resume" */
+.download-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Hover effect for download button */
+.download-btn:hover {
+  background-color: #bd5d38;
+}
+
+.download-btn:hover i {
+  background-color: #bd5d38;
+}
