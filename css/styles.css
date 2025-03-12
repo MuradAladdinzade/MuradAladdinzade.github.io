@@ -11027,6 +11027,12 @@ a[href^="mailto:"] {
   background-color: #bd5d38;
 }
 
+
+
+.download-btn:hover  {
+  color: white;
+}
+
 /* Download Resume Button styled like social icons with label */
 .download-btn {
   display: inline-flex;
